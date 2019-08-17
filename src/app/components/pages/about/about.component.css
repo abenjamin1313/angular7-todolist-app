@@ -1,0 +1,14 @@
+.about-bg {
+    background: #74b9ff;
+    min-height: 200ps;
+    padding: 10px;
+    color: #fff;
+}
+.about-bg h1 {
+    color: #000;
+    border-bottom: 1px solid #000;
+    margin-bottom: 4px;
+}
+.about-bg p {
+    margin: 10px auto;
+}

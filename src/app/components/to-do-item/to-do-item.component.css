@@ -1,5 +1,5 @@
 .del {
-    background: #ff0000;
+    background: rgba(214, 48, 49, .8); 
     color: #fff;
     border: none;
     padding: 5px 9px;
@@ -7,10 +7,13 @@
     cursor: pointer;
     float: right;
 }
+.del:hover {
+    background: rgba(214, 48, 49, 1); 
+}
 .todo {
-    background: #f4f4f4;
+    background: rgba(178, 190, 195, .8); 
     padding: 10px;
-    border-bottom: 1px #ccc dotted;
+    border-bottom: 1px #636e72 dotted;
 }
 
 .is-complete {
