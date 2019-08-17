@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'ang-todolist';
+  title:string = 'ang-todolist';
+  author:string = 'Adam Victor';
+
+  constructor() {
+  }
+  
 }
